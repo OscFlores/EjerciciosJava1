@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class FuncionMath {
-    public FuncionMath(){
+    public void FuMath(){
         double a,b,c,d,x,y,z,m,n;
         Scanner s = new Scanner(System.in);
         System.out.println("Ingrese 7 Numeros");
