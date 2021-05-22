@@ -22,7 +22,7 @@ public class Menu {
                          break;
                      case 2:
                          System.out.println("Bienvenido a las Funciones Math");
-                          
+                            Mat();
                          break;
                      case 3:
                          System.out.println("Bienvenido a Garage");

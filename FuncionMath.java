@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class FuncionMath {
+    Scanner s = new Scanner(System.in);
     public void FuMath(){
         double a,b,c,d,x,y,z,m,n;
-        Scanner s = new Scanner(System.in);
-        System.out.println("Ingrese 7 Numeros");
+        System.out.println("Ingrese 9 Numeros");
         x = s.nextInt();
         y = s.nextInt();
         z = s.nextInt();
@@ -22,6 +22,5 @@ public class FuncionMath {
         System.out.println("g:"+((x*y)/(1-(4*x))));
         System.out.println("h:"+((x*y)/(m*n)));
         System.out.println("i:"+((x+y)*(x+y)*(a-b)));
-        s.close();
     }
 }
