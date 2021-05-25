@@ -5,6 +5,7 @@ public class Menu {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion; //Guardaremos la opcion del usuario
+        //Se presenta un menu grafico con opciones para el usuario
          while (!salir) {
              System.out.println("\n Bienvenido al Menu Principal \n");
              System.out.println("1) HolaMundo");
@@ -45,31 +46,31 @@ public class Menu {
                          EcuLineal();
                          break;
                      case 6:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Programa sobre Conjunto de Datos");
                          
                          break;
                      case 7:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Programa sobre Mayor Menor en Secuencia");
                          
                          break;
                      case 8:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Programa sobre entrada definiendo Fecha");
                          
                          break;
                      case 9:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Programa sobre Constante Pi");
                          
                          break;
                      case 10:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Programa sobre valor e");
                          
                          break;
                      case 11:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Applet Quimela");
                          
                          break;
                      case 12:
-                         System.out.println("Programa sobre ecuaciones Lineales");
+                         System.out.println("Applet Circuitos");
                          
                          break;
                      case 13:
