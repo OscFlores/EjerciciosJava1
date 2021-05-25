@@ -10,14 +10,15 @@ public class Menu {
              System.out.println("1) HolaMundo");
              System.out.println("2) FuncionMath");
              System.out.println("3) EnterodeDosVariables");
-             System.out.println("4) Pistas");
-             System.out.println("5) Estadisticas y Reportes");
+             System.out.println("4) ConversorTiempo");
+             System.out.println("5) Ecuaciones LIneales");
              System.out.println("6) Salir");
              try {
                  System.out.println("Escribe una de las opciones");
                  opcion = sn.nextInt();
                  switch (opcion) {
                      case 1:
+                            System.out.println("Un Hola Mundo");  
                             Hola();
                          break;
                      case 2:
@@ -29,10 +30,12 @@ public class Menu {
                             DosVar();
                          break;
                      case 4:
-                         System.out.println("Pistas");
+                         System.out.println("Bienvendio a Conversor de Segundos a Minutos y Horas");
+                         tiempo();
                          break;
                      case 5:
-                         System.out.println("Estadisticas y Reportes");
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         EcuLineal();
                          break;
                      case 6:
                          salir = true;
@@ -58,5 +61,13 @@ public class Menu {
     public void DosVar(){
         EnteroDosVariables v = new EnteroDosVariables();
         v.DosVariables();
+    }
+    public void tiempo(){
+        ConversorT t = new ConversorT();
+        t.Convert();
+    }
+    public void EcuLineal(){
+        EcuacionesLineales e = new EcuacionesLineales();
+        e.EjecutarEcuaciones();
     }
 }
