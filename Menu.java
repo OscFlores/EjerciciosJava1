@@ -9,7 +9,7 @@ public class Menu {
              System.out.println("\n Bienvenido al Menu Principal \n");
              System.out.println("1) HolaMundo");
              System.out.println("2) FuncionMath");
-             System.out.println("3) Garage");
+             System.out.println("3) EnterodeDosVariables");
              System.out.println("4) Pistas");
              System.out.println("5) Estadisticas y Reportes");
              System.out.println("6) Salir");
@@ -25,8 +25,8 @@ public class Menu {
                             Mat();
                          break;
                      case 3:
-                         System.out.println("Bienvenido a Garage");
-                         
+                         System.out.println("Bienvenido a Entero de Dos Variables");
+                            DosVar();
                          break;
                      case 4:
                          System.out.println("Pistas");
@@ -54,5 +54,9 @@ public class Menu {
     public void Mat(){
         FuncionMath m = new FuncionMath();
         m.FuMath();
+    }
+    public void DosVar(){
+        EnteroDosVariables v = new EnteroDosVariables();
+        v.DosVariables();
     }
 }
