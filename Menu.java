@@ -12,7 +12,14 @@ public class Menu {
              System.out.println("3) EnterodeDosVariables");
              System.out.println("4) ConversorTiempo");
              System.out.println("5) Ecuaciones LIneales");
-             System.out.println("6) Salir");
+             System.out.println("6) Conjunto de Datos");
+             System.out.println("7) Valor y Mayor Secuencia");
+             System.out.println("8) Definir Fecha");
+             System.out.println("9) Constante Pi");
+             System.out.println("10) Valor e");
+             System.out.println("11) Applet Quimela");
+             System.out.println("12) Applet Circuitos");
+             System.out.println("13) Salir");
              try {
                  System.out.println("Escribe una de las opciones");
                  opcion = sn.nextInt();
@@ -38,6 +45,34 @@ public class Menu {
                          EcuLineal();
                          break;
                      case 6:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 7:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 8:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 9:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 10:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 11:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 12:
+                         System.out.println("Programa sobre ecuaciones Lineales");
+                         
+                         break;
+                     case 13:
                          salir = true;
                          break;
                      default:
