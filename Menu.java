@@ -47,11 +47,11 @@ public class Menu {
                          break;
                      case 6:
                          System.out.println("Programa sobre Conjunto de Datos");
-                         
+                         ConDatos();
                          break;
                      case 7:
                          System.out.println("Programa sobre Mayor Menor en Secuencia");
-                         
+                         Secuencia();
                          break;
                      case 8:
                          System.out.println("Programa sobre entrada definiendo Fecha");
@@ -105,5 +105,12 @@ public class Menu {
     public void EcuLineal(){
         EcuacionesLineales e = new EcuacionesLineales();
         e.EjecutarEcuaciones();
+    }
+    public void ConDatos(){
+        ConjuntoDatos c = new ConjuntoDatos();
+        c.Datos();
+    }
+    public void Secuencia(){
+    
     }
 }
