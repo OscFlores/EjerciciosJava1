@@ -112,6 +112,7 @@ public class Menu {
         c.Datos();
     }
     public void Secuencia(){
-    
+         MayorMenorSecuencia v = new MayorMenorSecuencia();
+         v.Secuencia();
     }
 }
