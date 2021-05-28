@@ -1,3 +1,4 @@
+package P1;
 import java.util.Scanner;
 public class EnteroDosVariables {
     Scanner f = new Scanner(System.in);

@@ -1,3 +1,4 @@
+package P1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Menu {

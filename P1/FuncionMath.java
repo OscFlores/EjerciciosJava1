@@ -1,3 +1,4 @@
+package P1;
 import java.util.Scanner;
 public class FuncionMath {
     Scanner s = new Scanner(System.in);
