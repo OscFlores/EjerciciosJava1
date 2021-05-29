@@ -56,7 +56,7 @@ public class Menu {
                          break;
                      case 8:
                          System.out.println("Programa sobre entrada definiendo Fecha");
-                         
+                         fecha();
                          break;
                      case 9:
                          System.out.println("Programa sobre Constante Pi");
@@ -114,5 +114,9 @@ public class Menu {
     public void Secuencia(){
          MayorMenorSecuencia v = new MayorMenorSecuencia();
          v.Secuencia();
+    }
+    public void fecha(){
+        IngresarFecha f = new IngresarFecha();
+        f.Ingreso();
     }
 }
