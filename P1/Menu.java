@@ -60,7 +60,7 @@ public class Menu {
                          break;
                      case 9:
                          System.out.println("Programa sobre Constante Pi");
-                         
+                         ConPi();
                          break;
                      case 10:
                          System.out.println("Programa sobre valor e");
@@ -118,5 +118,9 @@ public class Menu {
     public void fecha(){
         IngresarFecha f = new IngresarFecha();
         f.Ingreso();
+    }
+    public void ConPi(){
+        ConstantePi p = new ConstantePi();
+        p.Calcular();
     }
 }
