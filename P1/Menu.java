@@ -19,9 +19,7 @@ public class Menu {
              System.out.println("8) Definir Fecha");
              System.out.println("9) Constante Pi");
              System.out.println("10) Valor e");
-             System.out.println("11) Applet Quimela");
-             System.out.println("12) Applet Circuitos");
-             System.out.println("13) Salir");
+             System.out.println("11) Salir");
              try {
                  System.out.println("Escribe una de las opciones");
                  opcion = sn.nextInt();
@@ -67,14 +65,6 @@ public class Menu {
                          
                          break;
                      case 11:
-                         System.out.println("Applet Quimela");
-                         
-                         break;
-                     case 12:
-                         System.out.println("Applet Circuitos");
-                         
-                         break;
-                     case 13:
                          salir = true;
                          break;
                      default:
